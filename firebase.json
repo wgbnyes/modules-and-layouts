@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "router-layouts",
+      "public": "dist/router-layouts",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

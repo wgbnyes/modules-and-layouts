@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "yes4tests": {
+      "hosting": {
+        "router-layouts": [
+          "yes4tests"
+        ]
+      }
+    }
+  }
+}
